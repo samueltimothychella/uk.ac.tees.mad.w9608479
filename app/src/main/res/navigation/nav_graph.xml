@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="uk.ac.tees.mad.w9608479.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="uk.ac.tees.mad.w9608479.ContactsFragment"
+        android:label="@string/contacts"
+        tools:layout="@layout/fragment_contacts" />
+    <fragment
+        android:id="@+id/nav_add_contact"
+        android:name="uk.ac.tees.mad.w9608479.AddContactFragment"
+        android:label="@string/add_contact"
+        tools:layout="@layout/fragment_add_contact" />
+    <fragment
+        android:id="@+id/nav_nearbyme"
+        android:name="uk.ac.tees.mad.w9608479.NearByMeFragment"
+        android:label="@string/nearbyme"
+        tools:layout="@layout/fragment_nearbyme" />
+</navigation>

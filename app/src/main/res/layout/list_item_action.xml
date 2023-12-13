@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="8dp">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="12dp"
+            android:layout_gravity="center_vertical"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.5">
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:textSize="20dp"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+        <TextView
+            android:id="@+id/item_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+    </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_menu_remove"
+            android:background="@drawable/rounded"/>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

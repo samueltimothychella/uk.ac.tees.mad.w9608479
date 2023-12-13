@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "91121014215",
+    "project_id": "helpme-feb3c",
+    "storage_bucket": "helpme-feb3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91121014215:android:364c7d55f7c3e01e7935e2",
+        "android_client_info": {
+          "package_name": "uk.ac.tees.mad.w9608479"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQzgIZI8csily662phhY7xrLREGKbY4FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
